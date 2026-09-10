@@ -35,10 +35,8 @@ mkdocs gh-deploy
 ```
 
 
-## Notebooks
+## Estrutura
 
-Para subir notebooks no mkdocs, podemos utilizar a biblioteca do [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter).
+Cada exercício mora em `docs/exercises/<slug>/`, com o relatório em `index.md`, o código em `code/` (incorporado ao relatório via snippets do `pymdownx.snippets`) e as figuras geradas em `figures/`.
 
-Instalação, utilização e exemplos podem ser vistos na [documentação oficial](https://github.com/danielfrg/mkdocs-jupyter).
-
-O arquivo `mkdocs.yml` tem anotações nos nós modificados de exemplo.
+O dataset bruto do Kaggle usado no Exercício 1 (Data) fica em `data/SpaceshipTitanic/train.csv`, fora do controle de versão (`.gitignore`).

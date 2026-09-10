@@ -1,8 +1,8 @@
-site_name: Template de Entrega
-site_author: Sandmann, H.
-site_url: https://hsandmann.github.io/documentation.template
-repo_url: https://github.com/hsandmann/documentation.template
-repo_name: github/documentation.template
+site_name: Redes Neurais 26.2
+site_author: Ana Helena Caiafa
+site_url: https://anahc3.github.io/redes-neurais-26.2
+repo_url: https://github.com/anahc3/redes-neurais-26.2
+repo_name: anahc3/redes-neurais-26.2
 
 theme:
   name: material
@@ -110,7 +110,7 @@ plugins:
       enable_creation_date: true
   - git-authors
   - git-committers:
-      repository: hsandmann/documentation.template
+      repository: anahc3/redes-neurais-26.2
       branch: main
   - search
   - badges
@@ -124,11 +124,6 @@ plugins:
         - "$"
         - ">"
 
-# mkdocs-jupyter
-  - mkdocs-jupyter:
-      execute: false
-      allow_errors: false
-
 extra_javascript:
   - https://unpkg.com/mathjax/es5/tex-mml-chtml.js
   # - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -141,11 +136,9 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - This documentation: ./thisdocumentation/index.md
-  - Roteiros:
-    - Roteiro 1: ./roteiro1/index.md
-    - Roteiro 2: ./roteiro2/index.md
-    - Roteiro 3: ./roteiro3/index.md
-    - Roteiro 4: ./roteiro4/index.md
-    - Notebook 1: ./notebook1/ex1_data.ipynb
-  - Projeto: ./projeto/index.md
+  - Exercises:
+    - Data: ./exercises/data/index.md
+    - Perceptron: ./exercises/perceptron/index.md
+    - MLP: ./exercises/mlp/index.md
+    - VAE: ./exercises/vae/index.md
+  - Project: ./projects/index.md
