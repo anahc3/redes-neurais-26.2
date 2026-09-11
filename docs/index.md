@@ -1,8 +1,8 @@
 # Artificial Neural Networks and Deep Learning — 2026.2
 
-Coursework repository for Insper's Artificial Neural Networks and Deep Learning (ann-dl), semester 2026.2.
+Coursework repository for Insper's Artificial Neural Networks and Deep Learning, semester 2026.2.
 
-**Author:** Ana Caiafa (anahc3)
+**Author:** Ana Helena Caiafa 
 
 ## Exercises
 
