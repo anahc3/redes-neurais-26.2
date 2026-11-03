@@ -16,3 +16,6 @@ pandas
 scikit-learn
 seaborn
 
+scipy
+torch
+torchvision
