@@ -10,7 +10,7 @@ Three deliverables, done as a team (same team and dataset across all three): Exp
 | Deliverable | Deadline | Status |
 |---|---|---|
 | [Exploratory Data Analysis](https://thaisrs165.github.io/exploratory_data_analysis/) | Oct 25, 2026 | Done — hosted in the team repo |
-| [Classification or Regression](https://thaisrs165.github.io/exploratory_data_analysis/projects/regression/) | Nov 13, 2026 | Done — hosted in the team repo |
+| [Classification or Regression](https://thaisrs165.github.io/exploratory_data_analysis/#the-models) | Nov 13, 2026 | Done — hosted in the team repo |
 | Generative | TBD | Not started |
 
 ## Exploratory Data Analysis
